@@ -1,0 +1,245 @@
+#history p,
+h1,
+h2,
+h3 {
+	color: #fff;
+}
+
+.container {
+	width: 80%;
+}
+
+#introduce .m8,
+* {
+	padding: 0;
+}
+h1,
+h2 {
+	letter-spacing: 1px;
+}
+* {
+	margin: 0;
+}
+body,
+html {
+	background-color: #fff;
+	color: #555;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 18px !important;
+}
+h1,
+h2,
+h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 300%;
+	word-spacing: 4px;
+}
+h2 {
+	font-size: 190%;
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+h3 {
+	font-size: 110%;
+	margin-bottom: 15px;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-size: 16px !important;
+}
+span {
+	font-size: 16px !important;
+}
+.divider {
+	background-color: #f80;
+}
+nav {
+	background-color: orange;
+}
+nav ul li a {
+	color: white;
+}
+.nav-wrapper {
+	margin-right: 5%;
+}
+.nav-wrapper li a:hover {
+	background: white;
+	color: orange;
+}
+#history_image,
+#landing-page {
+	background-position: center;
+	height: 100vh;
+}
+#history_image,
+#landing-page,
+#review {
+	background-size: cover;
+	background-attachment: fixed;
+}
+#landing-page {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(images/du-lich-an-giang.png);
+}
+#landing-page h1 {
+	margin-top: 30%;
+}
+#landing-page a {
+	border-radius: 150px;
+	margin-top: 50px;
+}
+#landing-page a:hover {
+	background-color: #fff !important;
+	color: orange !important;
+}
+#history_image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url(images/dong_lua.jpg);
+}
+#history .row {
+	margin-top: 5%;
+	margin-left: 50px;
+}
+#history .row h6 {
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+#history a:hover {
+	background: orange !important;
+	color: #fff !important;
+}
+#introduce .row {
+	margin-bottom: 0;
+}
+#introduce p {
+	font-size: 20px;
+}
+#other_place .card-title {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+	width: 100%;
+	text-align: center;
+}
+#other_place .card-image {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+#other_place .card-image img {
+	opacity: 0.6;
+	width: 100%;
+	height: auto;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+#other_place .card-image img:hover {
+	opacity: 1;
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	transform: scale(1.03);
+}
+#accommodation .card-title {
+	background-color: #e3530d;
+	padding: 15px;
+	text-align: center;
+	font-size: 20px;
+}
+#accommodation i {
+	color: #ff4500;
+}
+#accommodation .card-action:hover {
+	background-color: #f80;
+	color: #fff !important;
+}
+#tien-ich .collection-item {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#instagram .carousel {
+	height: 650px !important;
+}
+#instagram .carousel-item,
+#instagram .carousel-item img {
+	height: 500px !important;
+	width: 500px !important;
+}
+#review {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url(images/thanhpho_baclieu-min.jpg);
+	color: #fff;
+	height: 700px;
+}
+#review h2 {
+	padding-top: 5%;
+}
+#review img {
+	height: 70px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+#review .card-panel {
+	margin-top: 150px;
+}
+#contact {
+	padding: 0;
+}
+#contact .row {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+#contact .row a {
+	position: relative;
+	margin-bottom: 30px;
+	border-radius: 50px;
+}
+#contact a {
+	background: #ff7b00;
+	color: #fff;
+}
+.input-field select option {
+	color: #fff !important;
+}
+
+@media (max-width: 600px) {
+	body {
+		font-size: 16px !important;
+	}
+	#review {
+		height: 1500px !important;
+	}
+	.wrapper {
+		display: grid !important;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(5, 40px);
+	}
+	nav {
+		text-align: center !important;
+
+		height: 250px;
+	}
+	nav ul {
+		width: 100%;
+	}
+	nav ul li {
+		margin: 15px !important;
+	}
+}
+
+@media (max-width: 950px) {
+	#review {
+		height: 1000px;
+	}
+}
